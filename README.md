@@ -35,3 +35,15 @@ This project analyzes state-wise COVID-19 data to extract healthcare insights us
 ```sql
 CREATE INDEX idx_state_date ON covid_data(state, report_date);
 
+**## 📎 Dataset Source**
+
+This project is designed to work with publicly available COVID-19 datasets, such as:
+
+- Johns Hopkins University CSSE COVID-19 Dataset  
+- COVID-19 India (covid19india.org) historical state-wise data
+
+Due to large file sizes, the full datasets are not included in this repository.
+The SQL schema and queries are generalized and compatible with any
+state-wise, daily COVID-19 dataset following the defined table structure.
+
+
