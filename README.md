@@ -30,6 +30,7 @@ in healthcare and public data analysis.
 ---
 
 ## 📂 Project Structure
+```
 covid-healthcare-sql-analytics/
 │
 ├── schema/
@@ -49,9 +50,7 @@ covid-healthcare-sql-analytics/
 │ └── key_findings.md
 │
 └── README.md
-
-yaml
-Copy code
+```
 
 ---
 
@@ -96,4 +95,4 @@ The SQL schema and queries are compatible with the full datasets.
 For large datasets, indexing can be applied to improve query performance:
 
 ```sql
-CREATE INDEX idx_state_date ON covid_data(state, report_date);
+CREATE INDEX idx_state_date ON covid_data(state, report_date); ```
