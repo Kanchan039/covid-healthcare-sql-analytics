@@ -33,7 +33,7 @@ This project analyzes state-wise COVID-19 data to extract healthcare insights us
 
 ## 📌 Index Optimization
 ```sql
-CREATE INDEX idx_state_date ON covid_data(state, report_date);
+CREATE INDEX idx_state_date ON covid_data(state, report_date); sql```
 
 **## 📎 Dataset Source**
 
